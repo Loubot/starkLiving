@@ -1,3 +1,29 @@
 body {
-  font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebff;
 }
+
+.max_height_100 {
+    max-height: 100vh !important;
+    overflow: none;
+    -o-object-fit: contain;
+    object-fit: contain;
+}
+
+.carousel-item > .fix {
+    /* position: absolute; */
+    /* min-width: 100%;
+    max-height: 380px;
+    max-width: none;
+    -o-object-fit: cover;
+    object-fit: cover;
+    overflow: hidden; */
+}
+
+/* .carousel-control-next-icon {
+    background-color: red !important;
+}
+
+.carousel-control-prev-icon {
+    background-color: red !important;
+} */
