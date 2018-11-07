@@ -3,6 +3,13 @@ body {
     background-color: #F5F6FA;
 }
 
+.garden_background {
+    height: 400px;
+    
+    background-image: url( '/images/garden_wide.jpg' );
+    min-height: 341px;
+}
+
 .max_height_100 {
     max-height: 100vh !important;
     overflow: none;
