@@ -4,10 +4,11 @@ body {
 }
 
 .garden_background {
-    height: 400px;
-    
+    width: 100vw !important;
     background-image: url( '/images/garden_wide.jpg' );
     min-height: 341px;
+    -o-object-fit: contain;
+    object-fit: contain;
 }
 
 .max_height_100 {
