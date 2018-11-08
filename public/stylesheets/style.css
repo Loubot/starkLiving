@@ -6,18 +6,12 @@ body {
 .garden_background {
     width: 100vw !important;
     background-image: url( '/images/garden_wide.jpg' );
-    position: fixed;
-    left: 0;
-    right: 0;
-    height: 481px;
-    background-position: center;
     background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    margin-bottom: 20px;
+    background-attachment: fixed;
+    background-position: center; 
+    min-height: 481px;
+    -o-object-fit: contain;
+    object-fit: contain;
 }
 
 @media ( max-width: 600px ){
@@ -42,6 +36,6 @@ body {
 }
 
 .shadow{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
