@@ -7,7 +7,7 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav  ml-auto">
-            <li class="nav-item active ">
+            <li class="nav-item">
                 <a class="nav-link" href="/">All <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
@@ -40,10 +40,10 @@
 $(document).ready(function() {
     var current = location.pathname;
     $('.navbar-nav li a').each(function(){
-        var $this = $(this);
-        console.log( this )
-        // if the current path is like this link, make it active
-        if($this.attr('href').indexOf(current) !== -1){
+        var $this = $(this); 
+
+        // we check comparison between current page and attribute redirection.
+        if ($this.attr('href') === current) {
             $this.addClass('active');
         }
     })
