@@ -43,3 +43,11 @@ body {
     max-height: 60px;
     max-width: 136px;
 }
+
+.cursor{
+    cursor: pointer;
+}
+
+.grey_text{
+    color: rgb( 136, 136, 136 )
+}
