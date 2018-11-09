@@ -5,7 +5,7 @@ body {
 
 .garden_background {
     width: 100vw !important;
-    background-image: url( '/images/garden_wide.jpg' );
+    background-image: url( '/images/garden_wide1.jpg' );
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
@@ -37,5 +37,10 @@ body {
 
 .shadow{
     box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.amazon_button{
+    max-height: 60px;
+    max-width: 136px;
 }
 
