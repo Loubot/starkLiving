@@ -8,8 +8,17 @@ router.get('/', function (req, res, next) {
     });
 });
 
-router.get('/user', function( req, res, next ) {
-    res.render( 'user' )
+router.get('/kindling-splitter', function( req, res, next ) {
+    res.render( 'kindling_splitter' )
+})
+
+
+router.get('/jack-cover', function( req, res, next ) {
+    res.render( 'jack_cover' )
+})
+
+router.get('/tick-removal', function( req, res, next ) {
+    res.render( 'tick_removal' )
 })
 
 module.exports = router;
