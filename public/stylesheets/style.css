@@ -4,14 +4,22 @@ body {
 }
 
 .garden_background {
-    width: 100vw !important;
-    background-image: url( '/images/garden_wide1.jpg' );
+    width: vh !important;
+    background-image: url( '/images/garden_1855_wide.jpg' );
+    /* background-image: url( '/images/garden_wide1.jpg' ); */
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
     min-height: 481px;
     -o-object-fit: contain;
+    
     object-fit: contain;
+}
+
+@media ( min-width: 1500px ){
+    .garden_background{
+        background-image: url( '/images/garden_1855_wide.jpg' )
+    }
 }
 
 @media ( max-width: 600px ){
