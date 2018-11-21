@@ -1,15 +1,15 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #eaf1f1;
+    background-color: #f9fbfb;
 }
 
 .garden_background {
-    width: vh !important;
-    background-image: url( '/images/garden_1855_wide.jpg' );
-    /* background-image: url( '/images/garden_wide1.jpg' ); */
+    width: vw !important;
+    
+    background-image: url( '/images/garden_wide1.jpg' );
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center; 
+    background-position:center top;
     min-height: 481px;
     -o-object-fit: contain;
     
@@ -58,4 +58,8 @@ body {
 
 .grey_text{
     color: rgb( 136, 136, 136 )
+}
+
+.light_grayish_cyan{
+    background: #f6f9f9;
 }
