@@ -4,12 +4,14 @@ var router = express.Router();
 /* GET home page. */
 router.get('/', function (req, res, next) {
     res.render('index', {
-        title: 'Express'
+        url: 'http://www.stark-living.com'
     });
 });
 
 router.get('/kindling-splitter', function( req, res, next ) {
-    res.render( 'kindling_splitter' )
+    res.render( 'kindling_splitter', {
+        url: 'http://www.stark-living.com'
+    } )
 })
 
 
